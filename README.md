@@ -99,4 +99,40 @@ After annotation, the VCF file will contain additional fields in the INFO column
 - **Population Frequencies:** Allele frequencies in different populations (e.g., from gnomAD, 1000 Genomes).
 - **Regulatory Impact:** Potential effects on regulatory elements (e.g., from ENCODE data).
 
+# Docker
+For further convenient, for some of the mentioned tools, docker container images in DockerHub has been provided for us. Here are the instructions for using them:
 
+- [**ANNOVARR**](https://registry.hub.docker.com/r/bioinstaller/annovarr)
+```bash
+docker pull bioinstaller/annovarr
+```
+
+- [**SnpEff**](https://hub.docker.com/r/nfcore/snpeff)
+```bash
+docker pull nfcore/snpeff
+``` 
+
+- [**VEP**](https://hub.docker.com/r/ensemblorg/ensembl-vep)
+```bash
+docker pull ensemblorg/ensembl-vep
+``` 
+
+- [**BCFtools**](https://hub.docker.com/r/biocontainers/bcftools)
+```bash
+docker pull biocontainers/bcftools
+``` 
+
+- [**GEMINI**](https://hub.docker.com/r/sibswiss/gemini)
+```bash
+docker pull sibswiss/gemini
+``` 
+
+- [**Vcfanno**](https://hub.docker.com/r/clinicalgenomics/vcfanno)
+```bash
+docker pull clinicalgenomics/vcfanno
+``` 
+
+- [**VCFtools**](https://hub.docker.com/r/biocontainers/vcftools)
+```bash
+docker pull biocontainers/vcftools
+``` 
