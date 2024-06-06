@@ -12,45 +12,48 @@ VCF (Variant Call Format) annotation is a process that involves adding additiona
 # Tools
 
 ## 1. ANNOVAR 
-A versatile tool for functionally annotating genetic variants.
+The anor package provides R functions as well as database resources which offer an integrated framework to annotate genetic variants from genome and transcriptome data.
+
 - **[GitHub](https://github.com/clindet/anor)**  (**⭐ 32 Stars**) • by [**ClinDet**](https://github.com/clindet/) 
 - **[Docker](https://registry.hub.docker.com/r/bioinstaller/annovarr)** (**⤓ 324 Pulls**)
 - ---
+ANNOVAR execution kit for VCF files
+
 - **[GitHub](https://github.com/dceoy/annovar-vcf-cli)**  (**⭐ 0 Stars**) • by [**dceoy**](https://github.com/dceoy) 
 - **[Docker](https://registry.hub.docker.com/r/bioinstaller/annovarr)** (**⤓ 324 Pulls**)
 - **[Docker](https://hub.docker.com/r/bioinfochrustrasbourg/annovar)** (**⤓ 100k+ Pulls**)
   
 ## 2. SnpEff
-Provides detailed functional annotations for genetic variants.
+SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of genetic variants (such as amino acid changes).
 
 - **[GitHub](https://github.com/pcingola/SnpEff)**  (**⭐ 232 Stars**) • by [**pcingola**](https://github.com/pcingola/) 
 - **[Docker](https://hub.docker.com/r/nfcore/snpeff)** (**⤓ 10k+ Pulls**)
 
 ## 3. VEP (Variant Effect Predictor)
-Developed by Ensembl, it predicts the functional effects of variants.
+VEP (Variant Effect Predictor) predicts the functional effects of genomic variants.
 
 - **[GitHub](https://github.com/Ensembl/ensembl-vep)**  (**⭐ 432 Stars**) • by [**Ensembl**](https://github.com/Ensembl) 
 - **[Docker](https://hub.docker.com/r/ensemblorg/ensembl-vep)** (**⤓ 10M+ Pulls**)
 
 ## 4. BCFtools
- A set of utilities for manipulating VCF and BCF files.
+This is the official development repository for BCFtools. It contains all the vcf* commands which previously lived in the htslib repository (such as vcfcheck, vcfmerge, vcfisec, etc.)
  
  - **[GitHub](https://github.com/samtools/bcftools)**  (**⭐ 624 Stars**) • by [**samtools**](https://github.com/samtools/) 
 - **[Docker](https://hub.docker.com/r/biocontainers/bcftools)** (**⤓ 1M+ Pulls**)
 
 ## 5. ClinVar Mine
-A tool specifically for annotating variants with clinical significance using ClinVar data.
+A tool specifically for annotating variants with clinical significance using ClinVar data. It classifies the somatic variants in ClinVar.
 
 - **[GitHub](https://github.com/ncbi/clinvar)**  (**⭐ 58 Stars**) • by [**ncbi**](https://github.com/ncbi) 
 
 ## 6. GEMINI
-Integrates VCF files with a wide range of annotation sources.
+GEMINI is unique in that it integrates genetic variation (from VCF files) with a wealth of genome annotations into a unified database framework.
 
 - **[GitHub](https://github.com/arq5x/gemini)**  (**⭐ 316 Stars**) • by [**arq5x**](https://github.com/arq5x) 
 - **[Docker](https://hub.docker.com/r/sibswiss/gemini)** (**⤓ 80 Pulls**)
 
 ## 7. Vcfanno
-Annotates VCF files with information from BED, BAM, and VCF files.
+vcfanno allows you to quickly annotate your VCF with any number of INFO fields from any number of VCFs or BED files.
 
 - **[GitHub](https://github.com/brentp/vcfanno)**  (**⭐ 350 Stars**) • by [**brentp**](https://github.com/brentp) 
 - **[Docker](https://hub.docker.com/r/clinicalgenomics/vcfanno)** (**⤓ 100k+ Pulls**)
